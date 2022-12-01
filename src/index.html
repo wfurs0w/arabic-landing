@@ -3,11 +3,246 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="icon" href="images/page-icon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700&family=Tajawal:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <link rel="stylesheet" href="./style.css">
+    <title>التجارة الفارسية</title>
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header">
+      <div class="header-container">
+        <a href="#">
+          <img
+            class="header-logo"
+            src="images/logo.png"
+            alt="logo"
+          >
+        </a>
+
+        <h1 class="header-title">
+          <span class="header-title-mobile"> هل تطمح <br> للتداول باحترافية</span>
+          <span class="header-title-desktop">هل تطمح للتداول باحترافية</span>
+          <span> من فضلك تداول بمعرفة</span>
+        </h1>
+
+        <form class="form">
+          <p class="form-text">
+            أرسل بياناتك اليوم لتحصل على خدمتنا المجانية المُبتكرة
+          </p>
+
+          <input
+            class="form-input"
+            type="text"
+            placeholder="ali"
+            maxlength="15"
+            minlength="2"
+            required
+          >
+          <input
+            class="form-input"
+            type="email"
+            placeholder="ali@arabic.co.ae"
+            required
+            >
+          <input
+            class="form-input"
+            type="text"
+            placeholder="الهاتف"
+            >
+
+          <label class="form-label" for="checkbox">
+            نشرة اسبوعية وعروض خاصة وتحديثات مستمرة
+            <input
+              type="checkbox"
+              class="form-ckeckbox"
+              id="checkbox"
+              required
+            >
+          </label>
+
+          <button class="form-button" type="submit">
+            سجل الآن
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-container">
+        <div class="main-top">
+          <div class="main-top-content">
+            <p class="main-top-number">%82</p>
+            <p class="main-top-text">دقة التوصيات</p>
+          </div>
+          <div class="main-top-content">
+            <p class="main-top-number">1600+</p>
+            <p class="main-top-text">توصيات شهرية</p>
+          </div>
+          <div class="main-top-content">
+            <p class="main-top-number">%100</p>
+            <p class="main-top-text">خدمة مجانية</p>
+          </div>
+        </div>
+
+        <p class="main-top-text main-title">
+          النجاح في سوق الأوراق المالية هو بالأساس نتاج طبيعي لاستفادتنا من خبرات بعضنا البعض
+        </p>
+
+        <div class="main-cards">
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-1.svg" alt="card-1">
+            </div>
+            <h3 class="main-card-title">المؤشرات</h3>
+            <p class="main-card-text">
+              مؤشرات الأسهم العالمية في الولايات المتحدة وأوروبا وغيرها من المؤشرات
+            </p>
+          </div>
+
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-2.svg" alt="card-2">
+            </div>
+            <h3 class="main-card-title">السلع</h3>
+            <p class="main-card-text">
+              قم بالتداول في السلع الدائمة مثل النفط القمح، السكر والقهوة
+            </p>
+          </div>
+
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-3.svg" alt="card-3">
+            </div>
+            <h3 class="main-card-title">الاسهم</h3>
+            <p class="main-card-text">
+              اختر من بين أكثر من 450 سهم للتداول في السوق العالمية
+            </p>
+          </div>
+
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-4.svg" alt="card-4">
+            </div>
+            <h3 class="main-card-title">العملات الرقمية</h3>
+            <p class="main-card-text">
+              اكتشف عالم جديد من العملات الرقمية البيتكوين، اإإيثوريوم وغيرها الكثير من أفضل العملات
+            </p>
+          </div>
+
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-5.svg" alt="card-5">
+            </div>
+            <h3 class="main-card-title">العملات الاجنيبة</h3>
+            <p class="main-card-text">
+              استكشف أكبر سوق مالي في العالم. تداول أزواج العملات الرئيسية والناشئة المتوفرة على منصاتنا.
+            </p>
+          </div>
+
+          <div class="main-card">
+            <div class="main-card-icon">
+              <img src="images/card-icon-3.svg" alt="card-6">
+            </div>
+            <h3 class="main-card-title">المعادن</h3>
+            <p class="main-card-text">
+              تنويع محفظتك مع المعادن مثل الذهب (الأكثر نشاطا في العالم) وكذلك الفضة والنحاس
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper main-slider">
+          <div class="swiper-wrapper ">
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-1.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">المؤشرات</h3>
+                <p class="main-card-text">
+                  مؤشرات الأسهم العالمية في الولايات المتحدة وأوروبا وغيرها من المؤشرات
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-2.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">السلع</h3>
+                <p class="main-card-text">
+                  قم بالتداول في السلع الدائمة مثل النفط القمح، السكر والقهوة
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-3.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">الاسهم</h3>
+                <p class="main-card-text">
+                  اختر من بين أكثر من 450 سهم للتداول في السوق العالمية
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-4.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">العملات الرقمية</h3>
+                <p class="main-card-text">
+                  اكتشف عالم جديد من العملات الرقمية البيتكوين، اإإيثوريوم وغيرها الكثير من أفضل العملات
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-5.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">العملات الاجنيبة</h3>
+                <p class="main-card-text">
+                  استكشف أكبر سوق مالي في العالم. تداول أزواج العملات الرئيسية والناشئة المتوفرة على منصاتنا.
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="main-card">
+                <div class="main-card-icon">
+                  <img src="./images/card-icon-3.svg" alt="card">
+                </div>
+                <h3 class="main-card-title">المعادن</h3>
+                <p class="main-card-text">
+                  تنويع محفظتك مع المعادن مثل الذهب (الأكثر نشاطا في العالم) وكذلك الفضة والنحاس
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-btn-wraper">
+          <button class="main-button" type="button">سجل الآن</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
+
+
